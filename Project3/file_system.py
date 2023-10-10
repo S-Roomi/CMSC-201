@@ -3,7 +3,7 @@ def pwd(current_location):
     Description:
       Displays the current spot the user is in and removes 
       any periods that the user doesn't need to see
-    :param: current_location: Where the user is currently in the file_system
+    :param: current_location: Where the user is currently in the file_system 
     :return: a path that is readable for the user
     """
     
