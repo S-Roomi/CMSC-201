@@ -1,24 +1,7 @@
-"""
-File: p1.py
-Author: Sina Roomi
-Date: 2022-11-04
-Lab Section: 43
-Email:  sinar1@umbc.edu
-Description:  This program shows the layout of code in a Python file, and greets
-the user with the name of the programmer
-"""
-
-''' ***** LEAVE THE LINES BELOW ALONE ***************
-********* LEAVE THE LINES BELOW ALONE ***************
-********* LEAVE THE LINES BELOW ALONE *************** '''
 debug = False
 
 from dataEntry import fill_roster
 from dataEntry import fill_attendance_data
-
-''' ***** LEAVE THE LINES ABOVE ALONE ***************
-********* LEAVE THE LINES ABOVE ALONE ***************
-********* LEAVE THE LINES ABOVE ALONE *************** '''
 
 
 def list_students_not_in_class(classRoster, attendData):
@@ -237,10 +220,6 @@ def printList(given_list):
     :return: prints out the list given
     """
 
-''' ***** LEAVE THE LINES BELOW ALONE ***************
-********* LEAVE THE LINES BELOW ALONE ***************
-********* LEAVE THE LINES BELOW ALONE *************** '''
-
 if __name__ == '__main__':
     # Example, Dr. NIcholas, 9am class    
     
@@ -278,7 +257,3 @@ if __name__ == '__main__':
     #display first student to enter class
     print("******* Get 1st student to enter class ****************")    
     print(get_first_student_to_enter(attendData))
-
-''' ***** LEAVE THE LINES ABOVE ALONE ***************
-********* LEAVE THE LINES ABOVE ALONE ***************
-********* LEAVE THE LINES ABOVE ALONE *************** '''
