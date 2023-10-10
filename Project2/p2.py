@@ -1,21 +1,4 @@
-"""
-File: py2.py
-Author: Sina Roomi
-Date: 11/18/2022
-Lab Section: 43
-Email:  sinar1@umbc.edu
-Description:  This program shows the layout of code in a Python file, and greets
-the user with the name of the programmer
-"""
-
-# Comment the line below out if your have the load_dictionary function working!!
-# Comment the line below out if your have the load_dictionary function working!!
-
 from dataEntryP2 import fillAttendanceData
-
-# Comment the line above out if your have the load_dictionary function working!!
-# Comment the line above out if your have the load_dictionary function working!!
-
 
 def print_list(xlist):
     """
@@ -167,16 +150,7 @@ def converter(timestamp):
     #takes the string and slices it from right to left and adds it to total seconds
 
     total_seconds += (int(time_string[0]) * 60 * 60) + (int(time_string[1]) * 60) + int(time_string[2])
-
-    """
-    for i in range(2,-1,-1):   
-        if time_string[i] == time_string[2]:
-            total_seconds += int(time_string[i])
-        elif time_string[i] == time_string[1]:
-            total_seconds += int(time_string[i]) * 60
-        elif time_string[i] == time_string[0]:
-            total_seconds += int(time_string[i]) * 60 * 60
-    """
+    
     return total_seconds
 
 
@@ -314,13 +288,6 @@ def load_roster(roster_file_name):
     
 if __name__ == '__main__':
 
-    """
-    infile = connect_to_data_file("randomData.txt")
-    if(infile):
-        print("connected to data file...")
-    else:
-        print("issue with data file... STOP")
-        exit(1)"""
     the_file_name = 'dataALLShow1stAnd2ndClass.txt'
     infile = connect_to_data_file(the_file_name)
     if(infile):
