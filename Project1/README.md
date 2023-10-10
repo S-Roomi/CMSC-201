@@ -5,6 +5,6 @@ Course Roster: Contains a list of names representing students enrolled in a spec
 
 Attendance Records (Swipe Log): Consists of a list of strings, each detailing a student's swipe.
 
-Each string includes: Student's name in the format "Last, First.", Timestamp of the swipe in military time, Date of the swipe.
+Each string includes: student's name in the format "Last, First.", timestamp of the swipe in military time, and date of the swipe.
 
 The provided dataEntry.py functions are integral for parsing and utilizing these datasets.
