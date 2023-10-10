@@ -1,22 +1,3 @@
-"""
-File:    file_system.py
-Author:  Sina Roomi
-Date:    12/11/2022
-Section: 43
-E-mail:  sinar1@umbc.edu
-Description:
-  This program mimics a command prompt and recreates it base operations like
-  ls, cd, mkdir,etc. 
-"""
-"""
-    Description:
-      
-    :param:
-    :param:
-    :return:
-"""
-
-
 def pwd(current_location):
     """
     Description:
